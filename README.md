@@ -3,15 +3,15 @@
 
 Credit scoring is a statistical method that is used to predict the probability that a loan applicant, existing borrower, or counterparty will default or become delinquent. The project involves calculating the credit scores and segmenting customers based on their credit scores.
 
-# Description
+## Description
 The following parameters are considered for evaluation
 "Age", "Gender", "Marital Status", "Education Level", "Employment Status", "Credit Utilization Ratio"
 "Payment History", "Number of Credit Accounts", "Loan Amount", "Interest Rate", "Loan Term", "Type of Loan"
 
-# Calculating Score
+## Calculating Score
 To calculate credit scores FICO method is used and then the Kmean clustering algorithm is used to segment customers based on their scores.
 
-# FICO Method
+## FICO Method
 A FICO score is a credit score created by the Fair Isaac Corporation (FICO).
 FICO scores take into account data in five areas to determine a borrower's creditworthiness: 
 Payment history (35%)
